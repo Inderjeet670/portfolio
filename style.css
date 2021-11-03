@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Rubik', sans-serif;   
+    font-weight: 300;
+
+
+}
+html{
+    font-size: 62.5%;
+}
+
+/* section 1 */
+.section-1{
+    width: 100%;
+    height: 100vh;
+    background: url(images/bg.jpg) center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1-heading{
+    font-size: 6rem;
+    font-weight: 700;
+    color: white;
+    background-color: #e41c6f;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    border-bottom: .35rem solid white;
+    text-shadow: .2rem .2rem 1rem grey;
+    transform: skew(-10deg);
+}
+
+
+.my-pic{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    border: .5rem dotted #e41c6f;
+    background-color: rgba(255,255,255.1);
+
+}
+
+.name-text{
+    color: white;
+    font-size: 4rem;
+    margin-top: 4rem;
+    font-weight: 400;
+    letter-spacing: .3rem;
+    background-color: #e41c6f;
+    padding: 10px;
+    border-bottom: .3rem solid white;
+    transform: skew(-10deg);
+
+}
+
+.section-1-btn{
+    font-size: 1.9rem;
+    background-color: white;
+    color: #333;
+    margin: 3rem 0;
+    font-size: 3rem;
+    padding: 1rem;
+    transform: skew(-10deg);
+    border-bottom: solid .3rem #e41c6f;
+
+}
+
